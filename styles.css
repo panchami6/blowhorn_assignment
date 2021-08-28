@@ -1,0 +1,514 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary: #4237d6;
+}
+
+.main{
+    max-width: 375px;
+}
+
+.nav-bar{
+    border-bottom: 1px solid rgb(241, 240, 240);
+    height: 4vh;
+    padding: 7px 5px 0px 5px;
+    font-size: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar .nav-list{
+    display: flex;
+}
+
+.nav-list .active{
+    color: var(--primary);
+}
+
+.components{
+    list-style: none;
+    padding-right: 3px;
+}
+
+.sign-up-btn{
+    background-color: var(--primary);
+    color: white;
+    border-radius: 0.3rem;
+    height: 8px;
+    width: 30px;
+    text-align: center;
+}
+
+.content-header .heading{
+    text-align: center;
+    padding: 2rem 4rem 0rem 4rem;
+}
+
+.heading span{
+    color: var(--primary);
+}
+
+.content-header p{
+    font-size: 6px;
+    padding: 1rem 5.5rem;
+    text-align: center;
+}
+
+.purchase{
+    text-align: center;
+    position: relative;
+}
+
+.purchase-btn{
+    font-size: 6px;
+    width: 55px;
+    height: 3vh;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.btn-overlay{
+    position: absolute;
+    font-size: 5px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(64, 194, 151);
+    color: white;
+    height: 1vh;
+    padding: 1px 3px;
+    top: 1px;
+    right: 125px;
+    z-index: 1;
+}
+
+.learn-more{
+    font-size: 3px;
+    padding-top: 0.2rem;
+}
+
+.companies h4{
+    text-align: center;
+    font-size: 5px;
+    padding-top: 3rem;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.company-logos{
+    width: 30px;
+    height: 30px;
+}
+
+.goals-illustration-one{
+    width: 130px;
+    height: 130px;
+    float: left;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+}
+
+.goals-illustration-two{
+    width: 110px;
+    height: 110px;
+    float: right;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+}
+
+.goal-one{
+    padding-left: 2rem;
+}
+
+.goal-one h4{
+    font-size: 10px;
+    padding-top: 3.5rem;
+    float: left;
+} 
+
+.goal-one p{
+    font-size: 6px;
+    color: grey;
+    padding-right: 3rem;
+    padding-top: 4.5rem;
+}
+
+.goal-one-list{
+    font-size: 6px;
+    color: grey;
+    padding-top: 0.5rem;
+}
+
+.goal-one-list li{
+    list-style-image: url(./Images/list-svgrepo-com.svg)
+}
+
+.goal-two{
+    padding-left: 3rem;
+}
+
+.goal-two h4{
+    font-size: 10px;
+    padding-top: 0.5rem;
+    float: left;
+}
+
+.goal-two p{
+    font-size: 6px;
+    color: grey;
+    padding-top: 4.8rem;
+}
+
+.goal-two-list{
+    font-size: 6px;
+    color: grey;
+    padding-top: 0.5rem;
+}
+
+.goal-two-list li{
+    list-style-image: url(./Images/list-svgrepo-com.svg)
+}
+
+.features{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.features-heading{
+    font-size: 12px;
+}
+
+.features p{
+    color: grey;
+    font-size: 6px;
+}
+
+.features-img{
+    border: none;
+    background-color: var(--primary);
+    border-radius: 50%;
+    color: white;
+    height: 17px;
+    width: 17px;
+    padding: 5px 2px 0px 2px;
+    margin-top: 0.5rem;
+}
+
+.features-list{
+    padding-left: 1.2rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.features-grid{
+    border: none;
+    border-radius: 0.2rem;
+    background-color: rgb(240, 240, 250);
+    margin: 0.5rem 0rem;
+    width: 80px;
+    height: 60px;
+}
+
+.features-grid h5{
+    font-size: 6px;
+    color: grey;
+    padding: 2px 0px;
+}
+
+.features-grid p{
+    color: grey;
+}
+
+.team{
+    padding-left: 15px;
+    padding-top: 3rem;
+}
+
+.team-members{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.team-img{
+    width: 55px;
+    height: 55px;
+    margin: 0.3rem;
+    border-radius: 50%;
+}
+
+.team-header{
+    padding-left: 5px;
+}
+
+.team-header h4{
+    color: var(--primary);
+    font-size: 5px;
+}
+
+.team-header h3{
+    font-size: 12px;
+    width: 150px;
+}
+
+.team-name{
+    text-align: center;
+    font-size: 7px;
+    padding-right: 10px;
+}
+
+.team-desc{
+    text-align: center;
+    font-size: 7px;
+    padding-right: 10px;
+    color: var(--primary);
+}
+
+.social{
+    padding-left: 20px;
+    color: rgb(202, 201, 201);
+}
+
+.social-icons{
+    font-size: 10px;
+}
+
+.project-blog{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.project-blog h3{
+    padding-left: 8px;
+}
+
+.project-blog p{
+    font-size: 10px;
+    color: grey;
+    padding-left: 8px;
+}
+
+.proj-img{
+    width: 90px;
+    height: 90px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.proj-img2{
+    width: 90px;
+    height: 90px;
+    margin-left: 8px;
+    border-radius: 0.2rem 0.2rem 0rem 0rem;
+}
+
+.part-one{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;   
+}
+
+.part-one-one{
+    position: relative;
+}
+
+.proj-overlap{
+    position: absolute;
+    top: 95px;
+    left: 15px;
+    font-size: 3.5px;
+    color: rgb(109, 8, 87);
+    border-radius: 0.3rem;
+    padding: 1px 3px;
+    z-index: 1;
+    background-color: white;
+    border: none;
+}
+
+.proj-overlap-two{
+    position: absolute;
+    top: 86px;
+    left: 15px;
+    font-size: 3.5px;
+    color: rgb(8, 9, 88);
+    border-radius: 0.3rem;
+    padding: 1px 3px;
+    z-index: 1;
+    background-color: white;
+    border: none;
+}
+
+.proj-desc h4{
+    font-size: 12px;
+    padding-left: 8px;
+    color: white;
+}
+
+.proj-desc p{
+    padding: 5px 1px 0px 8px;
+    font-size: 5px;
+    color: white;
+}
+
+.proj-desc-one{
+    position: absolute;
+    top: 99px;
+    background-color: rgb(221, 115, 198);
+    padding-top: 5px;
+    border-radius: 0rem 0rem 0.2rem 0.2rem;
+    width: 90px;
+    height: 55px;
+    margin-left: 8px;
+}
+
+.part-one-two{
+    position: relative;
+}
+
+.proj-desc-two{
+    position: relative;
+    bottom: 5px;
+    width: 90px;
+    height: 65px;
+    margin-left: 8px;
+    padding-top: 5px;
+    background-color: rgb(39, 145, 207);
+    border-radius: 0rem 0rem 0.2rem 0.2rem;
+}
+
+
+.part-one-three{
+    position: relative;
+}
+
+.proj-desc-three{
+    position: absolute;
+    bottom: 5px;
+    background-color: rgb(240, 198, 61);
+    padding-top: 5px;
+    border-radius: 0rem 0rem 0.2rem 0.2rem;
+    width: 90px;
+    height: 55px;
+    margin-left: 8px;
+}
+
+.proj-overlap-three{
+    position: absolute;
+    top: 96px;
+    left: 15px;
+    font-size: 3.5px;
+    color: rgb(163, 128, 10);
+    border-radius: 0.3rem;
+    padding: 1px 3px;
+    z-index: 1;
+    background-color: white;
+    border: none;
+}
+
+.part-two{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.blog-img{
+    width: 90px;
+    height: 55px;
+    border-radius: 0.2rem 0.2rem 0rem 0rem;
+}
+
+.blog-overlap{
+    position: absolute;
+    font-size: 3.5px;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 1px 3px;
+    z-index: 1;
+}
+
+.part-two .blog-overlap-one{
+    top:62px;
+    left: 15px;
+    background-color: rgb(221, 115, 198);
+}
+
+.part-two .blog-overlap-two{
+    top:62px;
+    left: 113px;
+    background-color: rgb(240, 198, 61);
+}
+
+.part-two .blog-overlap-three{
+    top:62px;
+    left: 211px;
+    background-color: rgb(39, 145, 207);
+}
+
+.part-two h5{
+    font-size: 6px;
+    padding-left: 8px;
+    padding-top: 2px;
+}
+
+.part-two p{
+    font-size: 5px;
+    padding: 3px 5px 0px 8px;
+}
+
+.blogs{
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 0.2rem;
+}
+
+.blog-desc{
+    position: absolute;
+    border: 1px solid rgb(224, 222, 222);
+    top: 64px;
+    width: 88px;
+    padding: 5px 0rem;
+    border-radius: 0rem 0rem 0.2rem 0.2rem;
+}
+
+.footer{
+    padding: 4rem 0rem 1rem 0rem;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5rem;
+}
+
+.footer-list{
+    list-style: none;
+    font-size: 6px;
+    color: grey;
+}
+
+.footer-icons{
+    font-size: 7px;
+    color: grey;
+    padding-right: 2px;
+}
+
+.footer-social{
+    text-align: center;
+}
+
+.footer-copyright{
+    font-size: 6px;
+    text-align: center;
+    padding-top: 3px;
+    color: rgb(168, 167, 167);
+}
+
+
+
